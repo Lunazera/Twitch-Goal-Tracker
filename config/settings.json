@@ -338,39 +338,39 @@
 					},
 					"padding-left": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Left",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Left"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"padding-right": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Right",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Right"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"padding-top": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Top",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Top"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"padding-bottom": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Bottom",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Bottom"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					}
 				}
 			},
@@ -664,9 +664,7 @@
 					},
 					"title-padding-left": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Left",
 						"condition": {
 							"title-adjust-toggle": [
 								true
@@ -674,13 +672,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Left"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"title-padding-right": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Right",
 						"condition": {
 							"title-adjust-toggle": [
 								true
@@ -688,13 +686,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Right"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"title-padding-top": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Top",
 						"condition": {
 							"title-adjust-toggle": [
 								true
@@ -702,13 +700,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Top"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"title-padding-bottom": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Bottom",
 						"condition": {
 							"title-adjust-toggle": [
 								true
@@ -716,7 +714,9 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Bottom"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"title-text-shadow-heading": {
 						"type": "heading",
@@ -1010,9 +1010,7 @@
 					},
 					"above-padding-left": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Left",
 						"condition": {
 							"above-adjust-toggle": [
 								true
@@ -1020,13 +1018,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Left"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"above-padding-right": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Right",
 						"condition": {
 							"above-adjust-toggle": [
 								true
@@ -1034,13 +1032,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Right"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"above-padding-top": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Top",
 						"condition": {
 							"above-adjust-toggle": [
 								true
@@ -1048,13 +1046,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Top"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"above-padding-bottom": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Bottom",
 						"condition": {
 							"above-adjust-toggle": [
 								true
@@ -1062,7 +1060,9 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Bottom"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"above-text-shadow-heading": {
 						"type": "heading",
@@ -1356,9 +1356,7 @@
 					},
 					"below-padding-left": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Left",
 						"condition": {
 							"below-adjust-toggle": [
 								true
@@ -1366,13 +1364,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Left"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"below-padding-right": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Right",
 						"condition": {
 							"below-adjust-toggle": [
 								true
@@ -1380,13 +1378,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Right"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"below-padding-top": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Top",
 						"condition": {
 							"below-adjust-toggle": [
 								true
@@ -1394,13 +1392,13 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Top"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"below-padding-bottom": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 50,
-						"step": 1,
+						"label": "Padding Bottom",
 						"condition": {
 							"below-adjust-toggle": [
 								true
@@ -1408,7 +1406,9 @@
 						},
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Padding Bottom"
+						"min": 0,
+						"max": 50,
+						"step": 1
 					},
 					"below-text-shadow-heading": {
 						"type": "heading",
