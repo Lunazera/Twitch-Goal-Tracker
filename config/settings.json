@@ -190,6 +190,24 @@
 						"min": 0,
 						"max": 15,
 						"step": 1
+					},
+					"top-margin": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 100,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Top Margin"
+					},
+					"left-margin": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 100,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Left Margin"
 					}
 				}
 			}

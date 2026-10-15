@@ -208,7 +208,9 @@ function widgetValuesListener(event) {
 		['bar-border-color', Widget.values.get('bar-border-color') ?? 'white'],
 		['bar-border-size', `${Widget.values.get('bar-border-size') ?? 5}px`],
 		['bar-height', `${Widget.values.get('bar-height') ?? 25}px`],
-		['bar-width', `${Widget.values.get('bar-width') ?? 500}px`]
+		['bar-width', `${Widget.values.get('bar-width') ?? 500}px`],
+		['top-margin', `${Widget.values.get('top-margin') ?? 0}px`],
+		['left-margin', `${Widget.values.get('left-margin') ?? 0}px`],
 	].forEach(([cssVarName, value]) => {
 		setCustomCSS(cssVarName, value);
 	});

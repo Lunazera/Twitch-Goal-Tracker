@@ -26,6 +26,8 @@
 	--bar-border-size: var(--custom-bar-border-size, 2px);
 	--bar-width: var(--custom-bar-width, 25px);
 	--bar-height: var(--custom-bar-height, 100px);
+    --top-margin: var(--custom-top-margin, 0px);
+    --left-margin: var(--custom-left-margin, 0px);
 
     --text-title-display: var(--custom-text-title-display, none);
     --text-above-display: var(--custom-text-above-display, none);
@@ -52,10 +54,6 @@
     --title-text-left: var(--custom-title-text-left, 0px);
     --title-text-top: var(--custom-title-text-top, 0px);
     --title-text-rotation: var(--custom-title-text-rotate, 0deg);
-
-
-
-
 
 
     --above-font-size: var(--custom-above-font-size, 14px);
@@ -103,13 +101,6 @@
     --below-text-top: var(--custom-below-text-top, 0px);
     --below-text-rotation: var(--custom-below-text-rotate, 0deg);
 
-
-
-
-
-
-
-
 	font-family:
 		var(--custom-font-name), 'Inter', Nunito, Helvetica, Arial, sans-serif;
 
@@ -121,6 +112,8 @@
 	inset: 0;
 	width: var(--bar-width);
 	height: var(--bar-height);
+    margin-left: var(--left-margin);
+    margin-top: var(--top-margin);
 }
 
 .text {
