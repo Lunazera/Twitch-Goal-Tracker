@@ -101,7 +101,6 @@ function widgetValuesListener(event) {
 		widgetElement.classList.toggle(className, force);
 	}
 
-
 	function loadWidgetTextSettings(prefix = '') {
 		// appearance settings
 		[
@@ -111,6 +110,10 @@ function widgetValuesListener(event) {
 			[prefix + 'text-color', Widget.values.get(prefix + 'text-color') ?? 'red'],
 			[prefix + 'text-align', Widget.values.get(prefix + 'text-align') ?? 'center'],
 			[prefix + 'text-outline', `${Widget.values.get(prefix + 'text-outline') ?? 0}px`],
+			[prefix + 'padding-left', `${Widget.values.get(prefix + 'padding-left') ?? 0}px`],
+			[prefix + 'padding-right', `${Widget.values.get(prefix + 'padding-right') ?? 0}px`],
+			[prefix + 'padding-top', `${Widget.values.get(prefix + 'padding-top') ?? 0}px`],
+			[prefix + 'padding-bottom', `${Widget.values.get(prefix + 'padding-bottom') ?? 0}px`],
 			[prefix + 'text-outline-color', Widget.values.get(prefix + 'text-outline-color') ?? 'black'],
 			[prefix + 'text-background-color', Widget.values.get(prefix + 'text-background-color') ?? 'white'],
 			[prefix + 'text-background-border-radius', `${Widget.values.get(prefix + 'text-background-border-radius') ?? 5}px`],

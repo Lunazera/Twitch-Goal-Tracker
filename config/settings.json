@@ -193,21 +193,21 @@
 					},
 					"top-margin": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 100,
-						"step": 1,
+						"label": "Top Margin",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Top Margin"
+						"min": 0,
+						"max": 100,
+						"step": 1
 					},
 					"left-margin": {
 						"type": "slider-input",
-						"min": 0,
-						"max": 100,
-						"step": 1,
+						"label": "Left Margin",
 						"halfSpan": true,
 						"defaultValue": 0,
-						"label": "Left Margin"
+						"min": 0,
+						"max": 100,
+						"step": 1
 					}
 				}
 			}
@@ -335,6 +335,42 @@
 						"min": 0,
 						"max": 50,
 						"step": 1
+					},
+					"padding-left": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Left"
+					},
+					"padding-right": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Right"
+					},
+					"padding-top": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Top"
+					},
+					"padding-bottom": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Bottom"
 					}
 				}
 			},
@@ -626,6 +662,62 @@
 						"max": 50,
 						"step": 1
 					},
+					"title-padding-left": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"title-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Left"
+					},
+					"title-padding-right": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"title-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Right"
+					},
+					"title-padding-top": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"title-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Top"
+					},
+					"title-padding-bottom": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"title-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Bottom"
+					},
 					"title-text-shadow-heading": {
 						"type": "heading",
 						"label": "Title Text Shadow",
@@ -916,6 +1008,62 @@
 						"max": 50,
 						"step": 1
 					},
+					"above-padding-left": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"above-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Left"
+					},
+					"above-padding-right": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"above-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Right"
+					},
+					"above-padding-top": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"above-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Top"
+					},
+					"above-padding-bottom": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"above-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Bottom"
+					},
 					"above-text-shadow-heading": {
 						"type": "heading",
 						"label": "Above Text Shadow",
@@ -1205,6 +1353,62 @@
 						"min": 0,
 						"max": 50,
 						"step": 1
+					},
+					"below-padding-left": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"below-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Left"
+					},
+					"below-padding-right": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"below-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Right"
+					},
+					"below-padding-top": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"below-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Top"
+					},
+					"below-padding-bottom": {
+						"type": "slider-input",
+						"min": 0,
+						"max": 50,
+						"step": 1,
+						"condition": {
+							"below-adjust-toggle": [
+								true
+							]
+						},
+						"halfSpan": true,
+						"defaultValue": 0,
+						"label": "Padding Bottom"
 					},
 					"below-text-shadow-heading": {
 						"type": "heading",

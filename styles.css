@@ -161,7 +161,7 @@
     z-index: 2;
     background-color: var(--text-background-color);
     color: var(--text-color);
-    padding: 2px 12px;
+    padding: var(--custom-padding-top) var(--custom-padding-right) var(--custom-padding-bottom) var(--custom-padding-left);
     border-radius: var(--text-background-border-radius);
     font-weight: var(--font-weight);
     font-size: var(--font-size);   
@@ -184,6 +184,8 @@
     background-color: var(--title-text-background-color);
     color: var(--title-text-color);
     border-radius: var(--title-text-background-border-radius);
+    padding: var(--custom-title-padding-top) var(--custom-title-padding-right) var(--custom-title-padding-bottom) var(--custom-title-padding-left);
+
     font-family:
 		var(--custom-title-font-name), 'Inter', Nunito, Helvetica, Arial, sans-serif;
 
@@ -196,6 +198,8 @@
     position: relative; 
     z-index: 4;
     background-color: var(--above-text-background-color);
+    padding: var(--custom-above-padding-top) var(--custom-above-padding-right) var(--custom-above-padding-bottom) var(--custom-above-padding-left);
+
     color: var(--above-text-color);
     font-family:
 		var(--custom-above-font-name), 'Inter', Nunito, Helvetica, Arial, sans-serif;
@@ -210,6 +214,8 @@
     position: relative; 
     z-index: 5;
     background-color: var(--below-text-background-color);
+    padding: var(--custom-below-padding-top) var(--custom-below-padding-right) var(--custom-below-padding-bottom) var(--custom-below-padding-left);
+
     color: var(--below-text-color);
     border-radius: var(--below-text-background-border-radius);
     font-family:
