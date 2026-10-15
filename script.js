@@ -539,10 +539,10 @@ function writeText() {
 		case 'bar-milestone':
 			if (MilestoneIndex === 0) {
 				textAbove.textContent = "";
-				textBelow.textContent =  Widget.values.get('text-below-bar') ?? '' + getMilestoneText(MilestoneIndex);
+				textBelow.textContent =  (Widget.values.get('text-below-bar') ?? '') + getMilestoneText(MilestoneIndex);
 			} else {
-				textAbove.textContent =  Widget.values.get('text-above-bar') ?? '' + getMilestoneText(MilestoneIndex - 1);
-				textBelow.textContent =  Widget.values.get('text-below-bar') ?? '' + getMilestoneText(MilestoneIndex);
+				textAbove.textContent =  (Widget.values.get('text-above-bar') ?? '') + getMilestoneText(MilestoneIndex - 1);
+				textBelow.textContent =  (Widget.values.get('text-below-bar') ?? '') + getMilestoneText(MilestoneIndex);
 			}
 			break;
 	}
