@@ -3,6 +3,10 @@
 /* ********* */
 /* ********* */
 
+/// TODO:
+// - Add image
+// - add alert sound (for when amount changes by at least X amount)
+
 'use strict';
 
 /* Globals *******************************************************************/
