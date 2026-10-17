@@ -8,12 +8,6 @@
 	"type": [
 		"overlay"
 	],
-	"accounts": [
-		{
-			"type": "read",
-			"service": "twitch"
-		}
-	],
 	"import": {
 		"js": [
 			"script.js"
@@ -21,5 +15,11 @@
 		"css": [
 			"styles.css"
 		]
-	}
+	},
+	"accounts": [
+		{
+			"type": "read",
+			"service": "twitch"
+		}
+	]
 }
