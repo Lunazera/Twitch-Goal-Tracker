@@ -485,12 +485,20 @@ function readMilestoneList() {
 
 /// Gets milestone amount from index and returns float
 function getMilestoneAmount(index) {
-	return parseFloat(ParsedMilestoneList[index][0]);
+	if (index < ParsedMilestoneList.length) {
+		return parseFloat(ParsedMilestoneList[index][0]);
+	} else {
+		return parseFloat(ParsedMilestoneList[ParsedMilestoneList.length - 1][0]);
+	}
 }
 
 /// Gets milestone text from index
 function getMilestoneText(index) {
-	return ParsedMilestoneList[index][1];
+	if (index < ParsedMilestoneList.length) {
+		return ParsedMilestoneList[index][1];
+	} else {
+		return "";
+	}
 }
 
 /// Gets previous milestone amount based on stored current index
@@ -524,6 +532,9 @@ function findNextMilestone(val) {
 
 		if (currentAmount < amount) {
 			break;
+		} else if (i == ParsedMilestoneList.length - 1) {
+			// Check if we are past the last milestone, set current index to one over if so
+			MilestoneIndex = i + 1;
 		}
 	}
 }
